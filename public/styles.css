@@ -1,9 +1,12 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
 header {
     background-color: #68b8f1;
+    padding-bottom: 1rem;
 }
 
 header img {
@@ -29,19 +32,59 @@ header p.lead {
     color: #d4d4d4;
 }
 
+main h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+}
+
+.card img {
+    border-bottom: 3px solid #007bff;
 }
 
 footer {
     border-top: 1px solid #eaeaea;
     margin-top: 2rem;
     padding-top: 1rem;
+    background-color: #f1f1f1;
 }
 
 footer p {
     margin-bottom: 0;
     font-size: 0.875rem;
     color: #6c757d;
+}
+
+.gallery img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+form .form-control, 
+form .btn {
+    margin-top: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
 }
