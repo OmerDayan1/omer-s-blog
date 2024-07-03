@@ -1,13 +1,14 @@
 {
   "name": "personal-blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple personal blog",
   "main": "server.js",
   "scripts": {
-    "build": "npm install",
-    "start": "node server.js"
+    "build": "npm install && npm run build-assets",
+    "start": "node server.js",
+    "build-assets": "node build.js"
   },
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
